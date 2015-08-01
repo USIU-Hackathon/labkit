@@ -15,7 +15,7 @@ ini_set("display_errors", 1);
 session_start();
 
 // Include site constants
-include_once "../inc/config.php";
+include_once "inc/config.php";
 
 // Create a database object
 try {

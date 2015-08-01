@@ -13,6 +13,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/xcharts.min.css">
 
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
@@ -52,18 +53,12 @@
                 if(isset($_SESSION['LoggedIn']) && isset($_SESSION['Username']) && $_SESSION['LoggedIn']==1):
                     ?>
                     <li>
-                        <a href="cart.php" role="button" data-toggle="modal">Cart <i class="glyphicon glyphicon-shopping-cart"></i></a>
-                    </li>
-                    <li>
                         <a href="account.php" role="button" data-toggle="modal"> Your Account <i class="glyphicon glyphicon-user"></i></a>
                     </li>
                     <li>
                         <a href="logout.php" role="button" data-toggle="modal"> Log Out <i class="glyphicon glyphicon-off"></i></a>
                     </li>
                 <?php else: ?>
-                    <li>
-                        <a href="cart.php" role="button" data-toggle="modal"> Cart <i class="glyphicon glyphicon-shopping-cart"></i></a>
-                    </li>
                     <li>
                         <a href="login.php" role="button" data-toggle="modal">Login</a>
                     </li>
