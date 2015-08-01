@@ -3,7 +3,8 @@
 
 <head>
 
-    <meta charset="utf-8">
+
+    <meta content="utf-8" http-equiv="encoding">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
@@ -17,6 +18,7 @@
 
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
+<!--    <script type="text/javascript" src="/assets/script/canvasjs.min.js"></script>-->
 
 </head>
 

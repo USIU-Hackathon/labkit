@@ -1,52 +1,27 @@
 /**
  * Created by ammly on 01/08/15.
  */
-$(document).ready(function(){
+window.onload = function () {
+    var chart = new CanvasJS.Chart("myChart", {
 
-    var data = {
-        "xScale": "time",
-        "yScale": "linear",
-        "type": "line",
-        "main": [
-            {
-                "className": ".pizza",
-                "data": [
-                    {
-                        "x": "2012-11-05",
-                        "y": 1
-                    },
-                    {
-                        "x": "2012-11-06",
-                        "y": 6
-                    },
-                    {
-                        "x": "2012-11-07",
-                        "y": 13
-                    },
-                    {
-                        "x": "2012-11-08",
-                        "y": -3
-                    },
-                    {
-                        "x": "2012-11-09",
-                        "y": -4
-                    },
-                    {
-                        "x": "2012-11-10",
-                        "y": 9
-                    },
-                    {
-                        "x": "2012-11-11",
-                        "y": 6
-                    }
+        title:{
+            text: "Voltage by Current"
+        },
+        data: [//array of dataSeries
+            { //dataSeries object
+
+                /*** Change type "column" to "bar", "area", "line" or "pie"***/
+                type: "line",
+                dataPoints: [
+                    { label: "Current", y: 18 },
+                    { label: "Coltage", y: 29 },
+                    { label: "Distance", y: 40 },
+                    { label: "Current", y: 34 },
+                    { label: "Time", y: 24 }
                 ]
             }
         ]
-    };
-    var opts = {
-        "dataFormatX": function (x) { return d3.time.format('%Y-%m-%d').parse(x); },
-        "tickFormatX": function (x) { return d3.time.format('%A')(x); }
-    };
-    var myChart = new xChart('line', data, '#example3', opts);
+    });
 
-});
+    chart.render();
+}

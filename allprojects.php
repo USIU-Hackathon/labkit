@@ -5,7 +5,7 @@ require 'common/header.php';
 define('PATH', dirname(__FILE__));
 
 ?>
-<div class="container">
+<div class="container min">
     <div class="row">
         <div class="col-md-12">
             <div class="row">
@@ -20,6 +20,48 @@ define('PATH', dirname(__FILE__));
                 </div>
                 <div class="col-md-9">
                     <div class="row">
+                        <a href="experiment.php">
+                            <div class="col-md-4">
+                                <div class="panel-group">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Experiment One</div>
+                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipis</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="experiment.php">
+                            <div class="col-md-4">
+                                <div class="panel-group">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Experiment One</div>
+                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipis</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="experiment.php">
+                            <div class="col-md-4">
+                                <div class="panel-group">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Experiment One</div>
+                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipis</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="experiment.php">
+                            <div class="col-md-4">
+                                <div class="panel-group">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Experiment One</div>
+                                        <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipis</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                         <a href="experiment.php">
                             <div class="col-md-4">
                                 <div class="panel-group">

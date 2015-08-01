@@ -5,7 +5,7 @@ require 'common/header.php';
 define('PATH', dirname(__FILE__));
 
 ?>
-<div class="container">
+<div class="container max">
     <div class="row">
         <div class="col-md-12">
             <div class="row">
@@ -33,8 +33,6 @@ define('PATH', dirname(__FILE__));
                                 <h1>Solution</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure nisi optio quae saepe vero!</p>
 
-                                <figure style="width: 400px; height: 300px;" id="myChart"></figure>
-
 
                                 <table class="table table-hover table-bordered table-striped">
                                     <caption>Products</caption>
@@ -56,14 +54,14 @@ define('PATH', dirname(__FILE__));
                                             <td>09.20</td>
                                         </tr>
                                         <tr>
-                                            <td>1.</td>
+                                            <td>2.</td>
                                             <td>1.5</td>
                                             <td>0.3</td>
                                             <td>0.4</td>
                                             <td>09.20</td>
                                         </tr>
                                         <tr>
-                                            <td>1.</td>
+                                            <td>3.</td>
                                             <td>1.5</td>
                                             <td>0.3</td>
                                             <td>0.4</td>
@@ -71,7 +69,9 @@ define('PATH', dirname(__FILE__));
                                         </tr>
                                     </tbody>
                                 </table>
-
+                            <div class="chart">
+                                <figure style="width: 400px; height: 300px;" id="myChart"></figure>
+                            </div>
                             </div>
                         </div>
                     </div>
@@ -81,7 +81,6 @@ define('PATH', dirname(__FILE__));
     </div>
 </div>
 </div>
-
 
 
 <?php

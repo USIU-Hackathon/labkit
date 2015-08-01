@@ -1,5 +1,6 @@
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-image: url("../images/school.png");
 }
 .push{
     padding-bottom: 320px;
@@ -49,6 +50,7 @@ body {
 
 footer {
     margin: 50px 0;
+    padding-top: 10px;
 }
 .navbar-inverse {
     background-color:#229922;
@@ -65,4 +67,14 @@ footer {
 }
 .navbar-inverse .navbar-brand {
     color:#eeeeee;
+}
+.max{
+    height: 750px;
+
+}
+.min{
+    height: 620px;
+}
+figure{
+    padding-bottom: 10px;
 }

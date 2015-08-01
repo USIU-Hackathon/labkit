@@ -6,7 +6,7 @@ define('PATH', dirname(__FILE__));
 
 ?>
 
-<div class="container">
+<div class="container max">
             <div class="row">
                 <div class="col-md-3">
                     <p class="lead">Categories</p>
